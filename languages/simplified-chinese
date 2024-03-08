@@ -1,0 +1,45 @@
+MDRP_FULL==Music Discord Rich Presence
+MDRP_SHORT==MDRP
+DRP_FULL==Discord Rich Presence
+DRP_SHORT==DRP
+ARTIST==艺术家
+ALBUM==专辑
+TITLE==标题
+PLAYER==播放器
+VERSION==版本
+DETAILS==音乐详情
+GOOD_ONE==这很好，检查一下你的DRP ;)
+KEYED_WRONG==专辑锁定了错误的艺术家 :/
+UNKEYED==专辑未键入 :(
+UNKNOWN_ARTIST==未知艺术家
+CONSOLE_NAME==Music Discord Rich Presence
+NO_VALID_MEDIA==检测到某些内容的音量但未显示，因为当前不支持或已禁用它
+REQUIRE_PIPELINE==检测到 {0} 中的音量，但尚未收到来自其中的数据。  您可能需要更新播放器、安装插件，或者只是暂停和恢复音乐。  更多信息请访问
+AND==和
+FAILED_TO_GET_INFO==获取曲目信息失败
+UNKNOWN_ALBUM==未知专辑
+ERROR_OCCURRED==发生了错误。  如果问题很严重，或者您想了解更多信息，请运行调试工具并使用那里的打印输出。  如果这严重影响了您的MDRP体验，请在GitHub上打开issue。
+REQUEST_DEBUG_TOOL==发生了错误。  请运行调试工具以获得更好的读数，然后使用该打印输出在github上打开issue。
+SPECIAL_INTEGRATION==使用特殊集成!
+NOTHING_PLAYING==没有播放 (可能暂停了)
+NEW_UPDATE==新更新 {0} (前往github下载)
+NO_SETTINGS==未找到DiscordPresenceConfig.ini!这是用于启用或禁用某些功能的设置文件
+NOTIF_KEYED_WRONG_HEADER==专辑键错了
+NOTIF_KEYED_WRONG_BODY==为不同的艺术家键入(检查大写字母)。  要禁用这些通知，请在 DiscordPresenceConfig.ini 中将 verbose 设置为 false
+NOTIF_UNKEYED_HEADER==专辑未键入
+NOTIF_UNKEYED_BODY==未锁定。  要禁用这些通知，请在DiscordPresenceConfig.ini中将verbose设置为 false
+NOTIF_KEY_TOO_LONG_HEADER==专辑密钥不一致太长
+NOTIF_KEY_TOO_LONG_BODY=={0} ({1}) 的密钥长于最多 {2} 个字符
+NOTIF_SETERR_NO_ID_HEADER==MDRP设置问题
+NOTIF_SETERR_NO_ID_BODY==文件 {0} 中出现错误，第二行未找到 ID
+NOTIF_SETERR_DEPREC_HEADER==弃用通知
+NOTIF_SETERR_DEPREC_BODY=={0} 使用已弃用的密钥格式。  专辑应该 Name==key==Artist
+NOTIF_UPDATE_HEADER==更新可用
+NOTIF_UPDATE_BODY=={0} 发布在github上,去那里获取最新版本
+USING==使用中
+PAUSED==暂停
+KEY_TOO_LONG==这张专辑的密钥太长了。  不得超过 {0} 个字符
+FOUND_REMOTELY==找到图片了！
+NOT_FOUND_REMOTELY==找不到图像
+NOTIF_NOT_FOUND_REMOTELY_HEADER==找不到专辑封面
+NOTIF_NOT_FOUND_REMOTELY_BODY=={0} 在iTunes API上找不到，请手动输入
